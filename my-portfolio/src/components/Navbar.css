@@ -1,0 +1,72 @@
+/* Navbar.css */
+
+/* Color palette */
+:root {
+  --light-text: #dad7cd;
+  --primary: #a3b18a;
+  --accent: #588157;
+  --dark-accent: #3a5a40;
+  --dark-text: #344e41;
+  --bg-dark: #2f3e46;
+}
+
+.custom-navbar {
+  background-color: var(--bg-dark) !important;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: var(--dark-text) !important;
+  font-size: 1.5rem;
+}
+
+.navbar-toggler {
+  border: none;
+  color: var(--light-text);
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.nav-link {
+  position: relative;
+  color: var(--light-text) !important;
+  font-weight: 500;
+  margin: 0 12px;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: var(--accent);
+  transition: width 0.4s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+  background-color: var(--dark-accent);
+}
+
+.theme-toggle-btn {
+  background: none !important;
+  border: none;
+  padding: 0 10px;
+  color: var(--primary);
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+  transform: scale(1.2);
+}
