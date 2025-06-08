@@ -87,4 +87,11 @@
     flex-direction: column;
     align-items: center;
   }
+  .map-and-socials {
+    flex: 1 1 300px;
+    margin-top: -50px;
+  }
+  .map-container {
+    margin-bottom: 0;
+  }
 }

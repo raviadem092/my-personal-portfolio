@@ -67,8 +67,8 @@ export default function Connect() {
         <div className="map-and-socials">
           <div className="map-container">
             <iframe
-              title="My Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.6349479280734!2d76.32304387538112!3d32.21904171285754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b512d7d080f5d%3A0x99a0ae6d6b3a4f62!2sHimachal%20Pradesh%20Cricket%20Association%20Stadium!5e0!3m2!1sen!2sin!4v1717259500000!5m2!1sen!2sin"
+              title="R K Villas Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.568524330017!2d77.96685777466386!3d16.446725729222432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bca1dc95cef3bcf%3A0x173b79adc5db529e!2sR%20K%20Villas!5e0!3m2!1sen!2sin!4v1749372671913!5m2!1sen!2sin"
               width="100%"
               height="300"
               style={{ border: 0, borderRadius: "10px" }}

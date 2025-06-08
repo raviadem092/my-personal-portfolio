@@ -8,8 +8,8 @@ export default function Footer() {
       <div className="footer-container">
         {/* Left side - your name or logo */}
         <div className="footer-brand">
-          <h2>Ravi Kumar</h2>
-          <p>Building beautiful & functional web experiences.</p>
+        <h2>Ravi Kumar Yadav Adem</h2>
+        <p>Experienced Full-Stack Developer specializing in modern, scalable web applications. Let’s build something impactful together.</p>
         </div>
 
         {/* Middle - quick links */}
@@ -18,7 +18,7 @@ export default function Footer() {
           <a href="#about">About Me</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
-          <a href="#connect">Contact</a>
+          <a href="#contact">Contact</a>
         </div>
 
         {/* Right side - social icons */}

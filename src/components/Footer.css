@@ -53,6 +53,30 @@
   color: #dad7cd;
   transition: color 0.3s ease;
 }
+.footer-links a {
+  color: #dad7cd; /* Default text color */
+  position: relative;
+  text-decoration: none; /* Remove default underline */
+}
+
+.footer-links a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Adjust as needed */
+  width: 0%;
+  height: 2px;
+  background-color: #588157; /* Medium green */
+  transition: width 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #588157;
+}
+
+.footer-links a:hover::after {
+  width: 100%;
+}
 
 .footer-socials a:hover {
   color: #a3b18a;
