@@ -20,7 +20,7 @@ const projects = [
   {
     title: "Recordent Platform",
     description:
-      "Collections and Management & analytics platform for Recordent.com, a leading credit management service provider.",
+      "Collections and Management & analytics platform for Recordent Pvt Ltd, a leading credit management service provider.",
     url: "https://recordent.com",
     img: "https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=800&q=80",
     isExternalSite: true,
