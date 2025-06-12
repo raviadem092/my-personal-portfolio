@@ -20,7 +20,7 @@ const AboutMe = () => {
               Currently working at Recordent, I'm exploring AI and entrepreneurship opportunities.
             </p>
             <a
-              href="/assets/A_Ravi_Kumar_Resume.pdf"
+              href="/assets/Ravikumar.pdf"
               className="btn-download"
               target="_blank"
               rel="noopener noreferrer"
