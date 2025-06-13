@@ -7,7 +7,7 @@ const projects = [
     title: "Cricket Scoreboard App",
     description:
       "A local cricket scorecard app using React Native, Node.js, and MySQL. Score your local tournaments with ease and track live updates.",
-    url: "https://github.com/ravikumaradem/cricket-scoreboard",
+    url: "https://cricketscorecardravikumaradem.vercel.app/",
     img: "https://www.dpolohotels.com/wp-content/uploads/2025/04/Dharamshala-Cricket-Stadium_-Upcoming-Matches-Events-Best-Places-to-Stay-%E2%80%93-A-Guide-by-DPolo-Club-Spa-Resort.jpg",
   },
   {
