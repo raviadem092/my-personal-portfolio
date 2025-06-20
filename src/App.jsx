@@ -12,6 +12,7 @@ import AOS from "aos";
 import "./App.css";
 import CodingProfiles from "./sections/CodingProfiles";
 import Connect from "./sections/Connect";
+import BackgroundParticles from "./components/BackgroundParticles";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -32,6 +33,8 @@ function App() {
 
   return (
     <>
+    <BackgroundParticles />
+    <div className="content-wrapper">
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <main>
         <Home />
@@ -43,6 +46,7 @@ function App() {
       </main>
       <Footer />
       <ScrollToTopArrow hideOnHome={true} />
+    </div>
     </>
   );
 }

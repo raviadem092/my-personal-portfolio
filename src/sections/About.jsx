@@ -38,7 +38,7 @@ const AboutMe = () => {
           >
             <div className="profile-pic-wrapper">
               <img
-                src="/assets/adem1.jpg"
+                src="/assets/ravikumaradem.jpg"
                 alt="A Ravi Kumar"
                 className="profile-pic"
               />
