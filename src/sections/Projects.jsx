@@ -14,7 +14,7 @@ const projects = [
     title: "Personal Portfolio",
     description:
       "Modern React portfolio with Bootstrap and Framer Motion animations showcasing projects and skills in a creative layout.",
-    url: "https://github.com/ravikumaradem/portfolio",
+    url: "https://github.com/raviadem092/my-personal-portfolio",
     img: "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=800&q=80",
   },
   {
@@ -25,6 +25,13 @@ const projects = [
     img: "https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=800&q=80",
     isExternalSite: true,
   },
+  {
+    title: "Make Your Call",
+    description: "A sleek and interactive coin-flipping app with 3D animations, stats tracking, sound effects, dark mode, and multilingual support. Flip your coin and make the call!",
+    url: "https://makeyourcall.vercel.app/",
+    img: "/assets/make_your_call.png",
+    isExternalSite: true,
+  }
 ];
 
 export default function Projects() {
